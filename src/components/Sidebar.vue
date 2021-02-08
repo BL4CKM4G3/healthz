@@ -15,6 +15,7 @@
               <v-icon class="mb-2" color="white" large>{{
                 icons.medical
               }}</v-icon>
+              <v-list-item-title class="white--text ml-2">Healthz</v-list-item-title>
             </v-list-item-content>
           </v-list-item>
         </v-list>
@@ -38,12 +39,14 @@
             </v-badge>
           </v-list-item>
           <v-list-item router to="/">
-            <v-list-item-content>
-              <v-icon class="mb-2" color="white">{{ icons.message }}</v-icon>
-              <v-list-item-subtitle class="white--text"
-                >Messages</v-list-item-subtitle
-              >
-            </v-list-item-content>
+            <v-badge color="pink" dot overlap>
+              <v-list-item-content>
+                <v-icon class="mb-2" color="white">{{ icons.message }}</v-icon>
+                <v-list-item-subtitle class="white--text"
+                  >Messages</v-list-item-subtitle
+                >
+              </v-list-item-content>
+            </v-badge>
           </v-list-item>
           <v-list-item router to="/">
             <v-list-item-content>
@@ -62,11 +65,13 @@
             </v-list-item-content>
           </v-list-item>
         </v-list>
-        <v-list style="position: absolute; bottom: 0;" flat>
+        <v-list style="position: absolute; bottom: 0" flat>
           <v-list-item router to="/">
             <v-list-item-content>
               <v-icon color="white">{{ icons.logout }}</v-icon>
-              <v-list-item-subtitle class="white--text ml-2">Logout</v-list-item-subtitle>
+              <v-list-item-subtitle class="white--text ml-2"
+                >Logout</v-list-item-subtitle
+              >
             </v-list-item-content>
           </v-list-item>
         </v-list>
@@ -90,7 +95,7 @@ export default {
       message: Icons.ICON_MESSAGE,
       settings: Icons.ICON_SETTINGS,
       help: Icons.ICON_HELP,
-      logout: Icons.ICON_LOGOUT
+      logout: Icons.ICON_LOGOUT,
     },
     colors: {
       primary: colors.light.primary,
