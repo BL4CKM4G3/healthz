@@ -7,3 +7,5 @@ export const ICON_MESSAGE = mdi.mdiMessage;
 export const ICON_SETTINGS = mdi.mdiCog;
 export const ICON_HELP = mdi.mdiMessageQuestion;
 export const ICON_LOGOUT = mdi.mdiLogout;
+export const ICON_SEARCH = mdi.mdiMagnify;
+export const ICON_TIME = mdi.mdiClockTimeNine;
