@@ -8,6 +8,11 @@
               <app-bar></app-bar>
             </v-col>
           </v-row>
+          <v-row>
+            <v-col cols="12" md="12" sm="12">
+              <card-offers></card-offers>
+            </v-col>
+          </v-row>
         </v-container>
       </v-flex>
     </v-layout>
@@ -16,11 +21,13 @@
 
 <script>
 import AppBar from "../components/AppBar.vue";
+import CardOffers from '../components/CardOffers.vue';
 
 export default {
   name: "Home",
   components: {
     AppBar,
+    CardOffers,
   },
 };
 </script>

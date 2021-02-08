@@ -9,7 +9,7 @@
         :prepend-icon="icons.search"
       ></v-text-field>
       <v-spacer></v-spacer>
-      <v-chip class="m-2" color="white">
+      <v-chip class="m-2" color="transparent">
         <v-icon left color="teal">
           {{ icons.clock }}
         </v-icon>
