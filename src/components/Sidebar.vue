@@ -10,7 +10,7 @@
     <v-col align-self="center">
       <v-row align-content="center" justify="center">
         <v-list flat>
-          <v-list-item class="mb-12 mt-6">
+          <v-list-item class="mb-4 mt-6">
             <v-list-item-content>
               <v-icon class="mb-2" color="white" large>{{
                 icons.medical
