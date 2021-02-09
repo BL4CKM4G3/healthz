@@ -9,3 +9,4 @@ export const ICON_HELP = mdi.mdiMessageQuestion;
 export const ICON_LOGOUT = mdi.mdiLogout;
 export const ICON_SEARCH = mdi.mdiMagnify;
 export const ICON_TIME = mdi.mdiClockTimeNine;
+export const ICON_DOWN = mdi.mdiChevronDown;
