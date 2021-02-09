@@ -1,9 +1,9 @@
 <template>
   <v-card
-    class="mx-12 rounded-tl-xl rounded-tr-xl rounded-br-xl rounded-bl-xl mt-2"
+    class="mx-12 rounded-tl-xl rounded-tr-xl rounded-br-xl rounded-bl-xl"
   >
     <v-list-item three-line>
-      <v-list-item-content class="pa-10">
+      <v-list-item-content class="pa-2 pt-4">
         <v-row align-content="center" justify="space-between">
           <v-col cols="12" md="7">
             <v-list-item-title class="headline mt-6 mb-1">
@@ -16,7 +16,7 @@
               pulmonologist, spirography, cardiogram.</v-list-item-subtitle
             >
           </v-col>
-          <v-col cols="12" md="5" class="pl-10 mt-n8" align-self="center">
+          <v-col cols="12" md="5" class="pl-10 mt-n4" align-self="center">
             <v-list-item-avatar tile size="150" class="ml-15">
               <v-img src="../assets/img/lungs.svg"></v-img>
             </v-list-item-avatar>
