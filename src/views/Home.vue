@@ -1,18 +1,40 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <v-layout row>
+      <v-flex md8>
+        <v-container>
+          <v-row>
+            <v-col cols="12" md="12" sm="12">
+              <app-bar></app-bar>
+            </v-col>
+          </v-row>
+          <v-row>
+            <v-col cols="12" md="12" sm="12">
+              <card-offers></card-offers>
+            </v-col>
+          </v-row>
+          <v-row>
+            <v-col cols="12" md="12" sm="12">
+              <card-statistics></card-statistics>
+            </v-col>
+          </v-row>
+        </v-container>
+      </v-flex>
+    </v-layout>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import AppBar from "../components/AppBar.vue";
+import CardOffers from '../components/CardOffers.vue';
+import CardStatistics from '../components/CardStatistics.vue';
 
 export default {
-  name: 'Home',
+  name: "Home",
   components: {
-    HelloWorld
-  }
-}
+    AppBar,
+    CardOffers,
+    CardStatistics,
+  },
+};
 </script>
