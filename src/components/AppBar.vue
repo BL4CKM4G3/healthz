@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar shaped elevation="10">
+  <v-app-bar color="transparent" elevation="0">
     <v-row align-content="center" class="mt-2 ml-1">
       <v-text-field
         color="teal"
