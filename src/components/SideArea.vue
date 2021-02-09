@@ -1,8 +1,8 @@
 <template>
-  <v-container class="mt-12">
+  <v-container class="mt-15">
     <v-row>
       <v-col align-self="center" cols="12" md="12" sm="12">
-        <v-list class="mt-n15" two-line>
+        <v-list class="mt-n7" two-line>
           <v-list-item color="transparent">
             <v-list-item-avatar class="ml-n5">
               <v-img
