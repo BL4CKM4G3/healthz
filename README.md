@@ -1,4 +1,10 @@
-# healthz
+# Healthz
+
+# Desktop
+![Project Desktop](src/assets/preview.gif)
+
+## Description
+This is a project inspired in a health care app. Trying to improve skills.
 
 ## Project setup
 ```
