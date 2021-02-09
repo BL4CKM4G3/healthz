@@ -10,3 +10,7 @@ export const ICON_LOGOUT = mdi.mdiLogout;
 export const ICON_SEARCH = mdi.mdiMagnify;
 export const ICON_TIME = mdi.mdiClockTimeNine;
 export const ICON_DOWN = mdi.mdiChevronDown;
+export const ICON_LIST = mdi.mdiFormatListBulleted;
+export const ICON_TOOTH = mdi.mdiTooth;
+export const ICON_HEART = mdi.mdiHeartPulse;
+export const ICON_PILL = mdi.mdiPill;

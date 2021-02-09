@@ -1,8 +1,8 @@
 <template>
   <v-card
-    class="mx-12 rounded-tl-xl rounded-tr-xl rounded-br-xl rounded-bl-xl mt-2"
+    class="mx-12 rounded-tl-xl rounded-tr-xl rounded-br-xl rounded-bl-xl"
   >
-    <v-app-bar color="grey darken-4" flat class="m-8">
+    <v-app-bar color="grey darken-4" flat class="m-8 mt-0 mb-0">
       <h5 class="white--text">Statistics of your health!</h5>
       <v-spacer></v-spacer>
       <v-btn color="teal" text>
@@ -15,7 +15,7 @@
       <v-sparkline
         :value="value"
         color="teal"
-        :smooth="radious || false"
+        :smooth="radius || false"
         :padding="padding"
         :line-width="width"
         :stroke-lineCap="lineCap"
@@ -37,13 +37,13 @@ export default {
       chevronDown: Icons.ICON_DOWN,
     },
     width: 2,
-    radius: 10,
-    padding: 8,
+    radius: 15,
+    padding: 6,
     lineCap: "round",
-    value: [0, 2, 5, 9, 5, 10, 3, 5, 0, 0, 1, 8, 2, 9, 0],
+    value: [0, 10, 5, 9, 5, 10, 3, 5, 0, 0, 1, 8, 2, 9, 0],
     fill: false,
     type: "trend",
-    autoLineWidth: false,
+    autoLineWidth: true,
   }),
 };
 </script>
